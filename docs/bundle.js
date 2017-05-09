@@ -75,7 +75,7 @@
 
 var text = 'Hello world!!!';
 (function () {
-  return document.write(text);
+  return document.body.innerHTML = text;
 })();
 
 // var text = 'Hello world!!!';

@@ -1,0 +1,12 @@
+
+
+{
+  "language": "javascript",
+  "script": [
+    "/docs/jstest.js"
+  ],
+  "group": "stable",
+  "dist": "precise",
+  "os": "linux"
+}
+

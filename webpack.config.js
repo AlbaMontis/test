@@ -1,4 +1,4 @@
-var path = require('path');
+/*var path = require('path');
 
 module.exports = {
   entry: './app/index.js',
@@ -19,4 +19,4 @@ module.exports = {
 	    }
 	  ]
   }
-};
+};*/

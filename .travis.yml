@@ -3,7 +3,7 @@
 {
   "language": "javascript",
   "script": [
-    "/tests/jstest.js"
+    "tests/jstest.js"
   ],
   "os": "linux"
 }

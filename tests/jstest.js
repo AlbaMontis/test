@@ -1,3 +1,9 @@
 function testBody () {
-	return false;
-}
+	if (document.body.innerHTML == "") {
+		return false;
+	} else {
+		return true;
+	}
+};
+
+testBody();

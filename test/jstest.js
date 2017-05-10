@@ -1,7 +1,7 @@
 describe('getBody', function() {
-    var body = document.body;
+    var body = document.body.innerHTML;
 
-    it('Should not be ampty', function() {
-        expect(body.innerHTML).toBe('Hello world!!!');
+    it('Should not be empty', function() {
+        expect(body).not.toBe('');
     });
 });

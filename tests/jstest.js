@@ -1,9 +1,7 @@
-function testBody () {
-	if (document.body.innerHTML == "") {
-		return false;
-	} else {
-		return true;
-	}
-};
+describe('getBody', function() {
+    var b = document.body;
 
-testBody();
+    it('Should not be ampty', function() {
+        expect(d.innerHTML).toBe('Hello world!!!');
+    });
+});

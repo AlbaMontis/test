@@ -1,10 +1,12 @@
 
 
 {
-  "language": "javascript",
+  "language": "node_js",
+  "node_js":"0.10",
   "script": [
-    "tests/jstest.js"
+    "node_modules/karma/bin/karma start my.conf.js --single-run"
   ],
+  "before_install": ["export DISPLAY=:99.0", "sh -e /etc/init.d/xvfb start"],
+  "before_script": "npm install",
   "os": "linux"
 }
-

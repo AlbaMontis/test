@@ -3,7 +3,7 @@
 {
   "language": "javascript",
   "script": [
-    "tests/jstest.js"
+    "docs/bundle.js"
   ],
   "os": "linux"
 }

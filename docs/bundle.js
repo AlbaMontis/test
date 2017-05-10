@@ -75,13 +75,8 @@
 
 var text = 'Hello world!!!';
 (function () {
-  return document.body.innerHTML = text;
+  return document.body.innerHTML = Array.from(text);
 })();
-
-// var text = 'Hello world!!!';
-// (function () {
-//   return document.write(text);
-// })();
 
 /***/ }),
 /* 1 */
